@@ -1,0 +1,181 @@
+/* Remove unwanted margins & ensure full width */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.8); /* Slight transparency */
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+/* Full-page background */
+.about-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #29294d);
+  color: white;
+  padding-top: 60px; /* Reduced from 80px to shift content up */
+  position: relative;
+}
+
+/* Raised About Section */
+.about-content {
+  max-width: 70%;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  position: relative;
+  width: 60%;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* About Text */
+h2 {
+  font-size: 2.2rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+/* Unique Selling Points */
+.usp {
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+/* Better Spacing in USP List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px; /* Better spacing */
+}
+
+/* Industry Standard Icons */
+.icon {
+  color: #ffcc00;
+  margin-right: 12px;
+  font-size: 1.4rem;
+}
+
+/* Tech Stack */
+.tech-stack {
+  margin-top: 35px;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.skills span {
+  background: #444;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffcc00;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+.usp h3 {
+  margin-bottom: 25px; /* Increased spacing */
+}
+
+/* Adjust spacing between each point */
+.usp li {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px; /* Increased space between lines */
+}
+
+/* Responsive Fixes */
+@media (max-width: 1024px) {
+  .about-content {
+    width: 85%;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .skills span {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    width: 90%;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}

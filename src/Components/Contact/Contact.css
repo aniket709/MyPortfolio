@@ -1,0 +1,95 @@
+/* Contact Page Styling */
+.contact-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Contact Card */
+  .contact-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+    width: 450px;
+    max-width: 90%;
+  }
+  
+  /* Title Styling */
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Subtitle */
+  .contact-subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  
+  /* Contact Details */
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Contact Item */
+  .contact-item {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+  
+  .contact-item:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-3px);
+  }
+  
+  /* Icon */
+  .icon {
+    font-size: 1.8rem;
+    color: #ffcc00;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .contact-title {
+      font-size: 2rem;
+    }
+    .contact-item {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  
