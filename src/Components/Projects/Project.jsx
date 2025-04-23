@@ -1,12 +1,23 @@
+
 import React from "react";
 import "./Project.css";
 
 const Projects = () => {
   const projectData = [
     {
-      title: "Employee Management System",
+      title: "Social Media Video Downloader",
       description:
-        "Developed a comprehensive Employee Management System using Java, Spring Boot, and React.js to streamline employee data handling, role management, and workflow automation.",
+        "Developed a video downloader using Node.js, Express, and React.js, enabling users to download videos from platforms like Instagram and Facebook with a user-friendly interface.",
+    },
+    {
+      title: "Video Streaming App",
+      description:
+        "Created a full-stack video streaming platform using Node.js, Express, and MongoDB, supporting user authentication, video uploads, and seamless video playback.",
+    },
+    {
+      title: "Chat Application",
+      description:
+        "Built a real-time chat application using Spring Boot, React, and WebSocket, allowing instant messaging with secure session handling and responsive UI.",
     },
     {
       title: "Operating System Algorithm Analyzer",
@@ -14,9 +25,9 @@ const Projects = () => {
         "Designed and implemented an OS Algorithm Analyzer using C++ and Data Structures to visualize and compare the efficiency of various process scheduling algorithms.",
     },
     {
-      title: "Email Generator",
+      title: "Employee Management System",
       description:
-        "Built an automated email generation system leveraging Java, Spring Boot, and Spring API, enabling efficient and customizable email creation for enterprises.",
+        "Developed a comprehensive Employee Management System using Java, Spring Boot, and React.js to streamline employee data handling, role management, and workflow automation.",
     },
     {
       title: "NFC Paper – Published at IEEE",
