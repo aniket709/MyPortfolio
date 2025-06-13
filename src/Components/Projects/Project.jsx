@@ -15,19 +15,19 @@ const Projects = () => {
         "Created a full-stack video streaming platform using Node.js, Express, and MongoDB, supporting user authentication, video uploads, and seamless video playback.",
     },
     {
-      title: "Chat Application",
+      title: "Personal Blog ",
       description:
-        "Built a real-time chat application using Spring Boot, React, and WebSocket, allowing instant messaging with secure session handling and responsive UI.",
+        "Build a blogging platform for writing blog post added authentication to it tech stack used is Express,React.",
     },
     {
-      title: "Operating System Algorithm Analyzer",
+      title: "Ani Drive",
       description:
-        "Designed and implemented an OS Algorithm Analyzer using C++ and Data Structures to visualize and compare the efficiency of various process scheduling algorithms.",
+        "My own custamizable drive used to upload files,folder and other media tech stack used is Express,mongodb,cloudinary.",
     },
     {
-      title: "Employee Management System",
+      title: "Authentication system ",
       description:
-        "Developed a comprehensive Employee Management System using Java, Spring Boot, and React.js to streamline employee data handling, role management, and workflow automation.",
+        "Built an authentication system using Express used package like bcrypt jwt and also used node-mailer to send the mail.",
     },
     {
       title: "NFC Paper – Published at IEEE",
